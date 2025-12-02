@@ -5713,7 +5713,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const tabsContainers = document.querySelectorAll(".tabs");
   if (!tabsContainers.length) return;
   tabsContainers.forEach(function(container) {
-    const tabItems = container.querySelectorAll(".tabs__item");
+    const tabItems = container.querySelectorAll(".tabs__tab");
     const tabContents = container.querySelectorAll(".tabs__content");
     tabItems.forEach(function(item, index) {
       item.addEventListener("click", function() {
